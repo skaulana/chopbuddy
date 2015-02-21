@@ -97,6 +97,12 @@
                                 <magnitude-random>0</magnitude-random>
                             </properties>
                         </behavior-instance>
+                        <behavior-instance type="Rotate">
+                            <properties>
+                                <speed>0</speed>
+                                <acceleration>0</acceleration>
+                            </properties>
+                        </behavior-instance>
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
@@ -132,6 +138,12 @@
                                 <period-offset-random>0</period-offset-random>
                                 <magnitude>80</magnitude>
                                 <magnitude-random>0</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Rotate">
+                            <properties>
+                                <speed>0</speed>
+                                <acceleration>0</acceleration>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
@@ -250,6 +262,12 @@
                                 <period-offset-random>0</period-offset-random>
                                 <magnitude>60</magnitude>
                                 <magnitude-random>0</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Rotate">
+                            <properties>
+                                <speed>0</speed>
+                                <acceleration>0</acceleration>
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
