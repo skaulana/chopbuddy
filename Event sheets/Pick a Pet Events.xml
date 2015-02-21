@@ -14,6 +14,14 @@
                     <param id="0" name="Key">&quot;petType&quot;</param>
                     <param id="1" name="Value">ClickTarget.Param</param>
                 </action>
+                <action id="0" name="Add key" sid="4881771514848953" type="PetData">
+                    <param id="0" name="Key">&quot;energyLevel&quot;</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="0" name="Add key" sid="2889899963159973" type="PetData">
+                    <param id="0" name="Key">&quot;heartLevel&quot;</param>
+                    <param id="1" name="Value">50</param>
+                </action>
                 <action id="-2" name="Go to layout" sid="9575724060463786" type="System">
                     <param id="0" name="Layout">Confirm your Pet Screen</param>
                 </action>

@@ -110,5 +110,37 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="4480268142891875">
+            <conditions>
+                <condition id="-18" name="On created" sid="4273372572333678" type="StatsBar" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="2759257606162158">
+                    <conditions>
+                        <condition id="-14" name="Pick by unique ID" sid="2008415506929802" type="StatsBar">
+                            <param id="0" name="Unique ID">22</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="3" name="Set progress" sid="1820182229731506" type="StatsBar">
+                            <param id="0" name="Value">PetData.Get(&quot;energyLevel&quot;)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="7338839079203923">
+                    <conditions>
+                        <condition id="-14" name="Pick by unique ID" sid="7591932669888864" type="StatsBar">
+                            <param id="0" name="Unique ID">23</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="3" name="Set progress" sid="6347499789097198" type="StatsBar">
+                            <param id="0" name="Value">PetData.Get(&quot;heartLevel&quot;)</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
     </events>
 </c2eventsheet>
