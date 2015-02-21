@@ -10,6 +10,7 @@
     <unique-id>2g5omo4tz6f38</unique-id>
     <saved-with-version>19500</saved-with-version>
     <used-plugins>
+        <plugin author="Scirra" id="Arr" version="1">Array</plugin>
         <plugin author="Scirra" id="Button" version="1">Button</plugin>
         <plugin author="Scirra" id="Dictionary" version="1">Dictionary</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
@@ -292,6 +293,9 @@
                     </frame>
                 </animation>
             </animation-folder>
+        </object-type>
+        <object-type global="1" name="HealthTips" sid="8039184101662829">
+            <plugin id="Arr" />
         </object-type>
     </object-folder>
     <families />

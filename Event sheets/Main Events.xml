@@ -60,6 +60,84 @@
                         </action>
                     </actions>
                 </event-block>
+                <event-block sid="3921518263286638">
+                    <conditions>
+                        <condition id="-14" name="Pick by unique ID" sid="1932953964083414" type="TitleText">
+                            <param id="0" name="Unique ID">55</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="9864576538479829" type="TitleText">
+                            <param id="0" name="Text">&quot;+&quot; &amp; PetData.Get(&quot;todayBreakfast&quot;)</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="6557904678874439">
+                            <conditions>
+                                <condition id="0" name="Compare value" sid="3421066382889144" type="PetData">
+                                    <param id="0" name="Key">&quot;todayBreakfast&quot;</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Destroy" sid="8508747044399797" type="TitleText" />
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="9423668088534676">
+                    <conditions>
+                        <condition id="-14" name="Pick by unique ID" sid="8900649488106776" type="TitleText">
+                            <param id="0" name="Unique ID">56</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="8861898898323758" type="TitleText">
+                            <param id="0" name="Text">&quot;+&quot; &amp; PetData.Get(&quot;todayLunch&quot;)</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="5154427742265185">
+                            <conditions>
+                                <condition id="0" name="Compare value" sid="1133754048261158" type="PetData">
+                                    <param id="0" name="Key">&quot;todayLunch&quot;</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Destroy" sid="6007663594763189" type="TitleText" />
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="2880089948324141">
+                    <conditions>
+                        <condition id="-14" name="Pick by unique ID" sid="3860201667236228" type="TitleText">
+                            <param id="0" name="Unique ID">57</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="3244794716427836" type="TitleText">
+                            <param id="0" name="Text">&quot;+&quot; &amp; PetData.Get(&quot;todayDinner&quot;)</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="1444131636390802">
+                            <conditions>
+                                <condition id="0" name="Compare value" sid="5262951090301217" type="PetData">
+                                    <param id="0" name="Key">&quot;todayDinner&quot;</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Destroy" sid="4536857401205397" type="TitleText" />
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
             </sub-events>
         </event-block>
         <event-block sid="1154452958132362">
@@ -121,12 +199,46 @@
                         <condition id="-14" name="Pick by unique ID" sid="2008415506929802" type="StatsBar">
                             <param id="0" name="Unique ID">22</param>
                         </condition>
+                        <condition id="-14" name="Pick by unique ID" sid="6450278670098107" type="TitleText">
+                            <param id="0" name="Unique ID">28</param>
+                        </condition>
                     </conditions>
                     <actions>
                         <action id="3" name="Set progress" sid="1820182229731506" type="StatsBar">
                             <param id="0" name="Value">PetData.Get(&quot;energyLevel&quot;)</param>
                         </action>
+                        <action id="0" name="Set text" sid="792002729615397" type="TitleText">
+                            <param id="0" name="Text">HealthTips.At(floor(random(HealthTips.Width)))</param>
+                        </action>
                     </actions>
+                    <sub-events>
+                        <event-block sid="2322473044607346">
+                            <conditions>
+                                <condition id="1" name="Compare progress" sid="3855155383519711" type="StatsBar">
+                                    <param id="0" name="Comparison">2</param>
+                                    <param id="1" name="Value">2</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set text" sid="8633108684374877" type="TitleText">
+                                    <param id="0" name="Text">&quot;I&apos;m hungry... did you eat anything yet today? Don&apos;t forget to log it!&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="3472600523922869">
+                            <conditions>
+                                <condition id="1" name="Compare progress" sid="7551838999501632" type="StatsBar">
+                                    <param id="0" name="Comparison">4</param>
+                                    <param id="1" name="Value">80</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set text" sid="120361248678526" type="TitleText">
+                                    <param id="0" name="Text">&quot;I feel amazing! You&apos;re doing such a great job with your eating!&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
                 </event-block>
                 <event-block sid="7338839079203923">
                     <conditions>
@@ -158,6 +270,28 @@
                         <action id="-2" name="Go to layout" sid="1765501219447007" type="System">
                             <param id="0" name="Layout">Healthy Eating Screen</param>
                         </action>
+                    </actions>
+                </event-block>
+                <event-block sid="909029462645429">
+                    <conditions>
+                        <condition id="-14" name="Pick by unique ID" sid="8479918377372519" type="Button">
+                            <param id="0" name="Unique ID">29</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="1" name="Set key" sid="9646279277421728" type="PetData">
+                            <param id="0" name="Key">&quot;energyLevel&quot;</param>
+                            <param id="1" name="Value">PetData.Get(&quot;energyLevel&quot;) + 10</param>
+                        </action>
+                        <action id="1" name="Set key" sid="1319739457402918" type="PetData">
+                            <param id="0" name="Key">&quot;energyLevel&quot;</param>
+                            <param id="1" name="Value">PetData.Get(&quot;energyLevel&quot;) &gt; 100 ? 0 : PetData.Get(&quot;energyLevel&quot;)</param>
+                        </action>
+                        <action id="1" name="Set key" sid="4933558853357922" type="PetData">
+                            <param id="0" name="Key">&quot;todayBreakfast&quot;</param>
+                            <param id="1" name="Value">5</param>
+                        </action>
+                        <action id="-26" name="Restart layout" sid="4334198237495899" type="System" />
                     </actions>
                 </event-block>
             </sub-events>
