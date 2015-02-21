@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Confirm your Pet Events</name>
+    <events>
+        <event-block sid="2471677129739495">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="8363403137649565" type="System" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="1701013735428799">
+                    <conditions>
+                        <condition id="0" name="Compare value" sid="3893135358145681" type="PetData">
+                            <param id="0" name="Key">&quot;petType&quot;</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;lion&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Create object" sid="3595619613089922" type="System">
+                            <param id="0" name="Object to create">Lion</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="X">190</param>
+                            <param id="3" name="Y">300</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1354211201718861">
+                    <conditions>
+                        <condition id="0" name="Compare value" sid="5252063525076625" type="PetData">
+                            <param id="0" name="Key">&quot;petType&quot;</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;rhino&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Create object" sid="4033834878870314" type="System">
+                            <param id="0" name="Object to create">Rhino</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="X">180</param>
+                            <param id="3" name="Y">300</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="722451455819322">
+                    <conditions>
+                        <condition id="0" name="Compare value" sid="6393922240456287" type="PetData">
+                            <param id="0" name="Key">&quot;petType&quot;</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">&quot;turtle&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Create object" sid="4047920639075135" type="System">
+                            <param id="0" name="Object to create">Turtle</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="X">190</param>
+                            <param id="3" name="Y">290</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="4072037685724431">
+            <conditions>
+                <condition id="-18" name="On created" sid="6556079342200212" type="Lion" />
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="1888019945858182" type="Lion">
+                    <param id="0" name="Scale">1.5</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8543830822319959">
+            <conditions>
+                <condition id="-18" name="On created" sid="9406557918496533" type="Rhino" />
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="6336047315577252" type="Rhino">
+                    <param id="0" name="Scale">1.6</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5850457841076603">
+            <conditions>
+                <condition id="-18" name="On created" sid="3790025521292577" type="Turtle" />
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="4178311286138623" type="Turtle">
+                    <param id="0" name="Scale">1.5</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8310706620873727">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="4196673491387552" type="System">
+                    <param id="0" name="Interval (seconds)">2</param>
+                </condition>
+                <condition id="-19" name="Pick all" sid="8248446457856724" type="System">
+                    <param id="0" name="Object">Lion</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Sine" id="5" name="Set cycle position" sid="1124496976917365" type="Lion">
+                    <param id="0" name="Cycle position">0.5</param>
+                </action>
+                <action behavior="Sine" id="0" name="Set active" sid="440556998833262" type="Lion">
+                    <param id="0" name="State">1</param>
+                </action>
+                <action id="-16" name="Wait" sid="1065478609560943" type="System">
+                    <param id="0" name="Seconds">1.5</param>
+                </action>
+                <action behavior="Sine" id="0" name="Set active" sid="7401138144780165" type="Lion">
+                    <param id="0" name="State">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="713592346579868">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="3701105103191796" type="System">
+                    <param id="0" name="Interval (seconds)">2</param>
+                </condition>
+                <condition id="-19" name="Pick all" sid="4920135133885828" type="System">
+                    <param id="0" name="Object">Rhino</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Sine" id="5" name="Set cycle position" sid="8758960569371968" type="Rhino">
+                    <param id="0" name="Cycle position">0.5</param>
+                </action>
+                <action behavior="Sine" id="0" name="Set active" sid="8521275562799266" type="Rhino">
+                    <param id="0" name="State">1</param>
+                </action>
+                <action id="-16" name="Wait" sid="4112832164048129" type="System">
+                    <param id="0" name="Seconds">1.5</param>
+                </action>
+                <action behavior="Sine" id="0" name="Set active" sid="798980310349671" type="Rhino">
+                    <param id="0" name="State">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4074792327090356">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="8772814175949549" type="System">
+                    <param id="0" name="Interval (seconds)">2</param>
+                </condition>
+                <condition id="-19" name="Pick all" sid="8672432427391598" type="System">
+                    <param id="0" name="Object">Turtle</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Sine" id="5" name="Set cycle position" sid="312707774641501" type="Turtle">
+                    <param id="0" name="Cycle position">0.5</param>
+                </action>
+                <action behavior="Sine" id="0" name="Set active" sid="5214997880934524" type="Turtle">
+                    <param id="0" name="State">1</param>
+                </action>
+                <action id="-16" name="Wait" sid="1345587527752954" type="System">
+                    <param id="0" name="Seconds">1.5</param>
+                </action>
+                <action behavior="Sine" id="0" name="Set active" sid="3429674655419336" type="Turtle">
+                    <param id="0" name="State">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="221292225901025">
+            <conditions>
+                <condition id="0" name="On clicked" sid="5155618893714571" type="Button" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="1495197617600801" type="System">
+                    <param id="0" name="Layout">Main Screen</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

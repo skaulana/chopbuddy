@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>ChopBuddy</name>
+    <description>A Social Game for Healthy Eating</description>
+    <version>0.1.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.teamlehp.chopbuddy</app-id>
+    <unique-id>2g5omo4tz6f38</unique-id>
+    <saved-with-version>19500</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Button" version="1">Button</plugin>
+        <plugin author="Scirra" id="Dictionary" version="1">Dictionary</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
+        <plugin author="Scirra" id="progressbar" version="1">Progress bar</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>850</width>
+        <height>500</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Progress bar &amp; logo</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D web</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="TitleText" sid="5829442584294133">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Turtle" sid="1953526639712669">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="79235559522736">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8126098397308341" speed="5">
+                    <frame duration="1" hotspotX="0.503817" hotspotY="0.5" original-source="C:\Users\Sean\Desktop\turtle.png">
+                        <collision-poly>
+                            <point x="0.0381679" y="0.0490196" />
+                            <point x="0.496183" y="0.0784314" />
+                            <point x="0.832061" y="0.215686" />
+                            <point x="0.954198" y="0.5" />
+                            <point x="0.916031" y="0.892157" />
+                            <point x="0.496183" y="0.990196" />
+                            <point x="0.0916031" y="0.882353" />
+                            <point x="0.0916031" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Rhino" sid="1100292226092282">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="3816204259808954">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="810481283148418" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Sean\Desktop\rhino.png">
+                        <collision-poly>
+                            <point x="0.12037" y="0.147727" />
+                            <point x="0.5" y="0.136364" />
+                            <point x="0.87963" y="0.147727" />
+                            <point x="0.962963" y="0.5" />
+                            <point x="0.694444" y="0.625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.166667" y="0.795455" />
+                            <point x="0.0462963" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Lion" sid="8541620906677324">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="8075150759138713">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="123882317036425" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Sean\Desktop\lion.png">
+                        <collision-poly>
+                            <point x="0.0909091" y="0.0634921" />
+                            <point x="0.5" y="0.00793651" />
+                            <point x="0.738636" y="0.18254" />
+                            <point x="0.659091" y="0.5" />
+                            <point x="0.954545" y="0.968254" />
+                            <point x="0.5" y="0.97619" />
+                            <point x="0.147727" y="0.896825" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="GreenHill" sid="3781679998817336">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="DescriptionText" sid="8931849383473728">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="ClickTarget" sid="6528890356657286">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="Param" sid="8355547170645182" type="string" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8058903886998156" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Touch" sid="7126744434372506">
+            <plugin id="Touch" />
+        </object-type>
+        <object-type global="1" name="PetData" sid="5237823067040942">
+            <plugin id="Dictionary" />
+        </object-type>
+        <object-type name="Energy" sid="7516483784674832">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6710117407462347" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Sean\Desktop\bolt.png">
+                        <collision-poly>
+                            <point x="0.1" y="0.0454545" />
+                            <point x="1" y="0" />
+                            <point x="0.733333" y="0.5" />
+                            <point x="0.433333" y="0.742424" />
+                            <point x="0.5" y="0.681818" />
+                            <point x="0.1" y="0.954545" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Heart" sid="3250869544567052">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5822804389170012" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.512821" original-source="C:\Users\Sean\Desktop\12940109572140309217heart.png">
+                        <collision-poly>
+                            <point x="0.075" y="0.0769231" />
+                            <point x="0.5" y="0.128205" />
+                            <point x="0.9" y="0.102564" />
+                            <point x="0.975" y="0.487179" />
+                            <point x="0.775" y="0.769231" />
+                            <point x="0.5" y="0.974359" />
+                            <point x="0.2" y="0.794872" />
+                            <point x="0.025" y="0.487179" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Plate" sid="779990896431492">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="142733388990293" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Sean\Desktop\emptyplate.png">
+                        <collision-poly>
+                            <point x="0.153333" y="0.153333" />
+                            <point x="0.5" y="0.0111111" />
+                            <point x="0.844444" y="0.155556" />
+                            <point x="0.986667" y="0.5" />
+                            <point x="0.844444" y="0.844444" />
+                            <point x="0.5" y="0.986667" />
+                            <point x="0.155556" y="0.844444" />
+                            <point x="0.0111111" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Button" sid="915981942823926">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="StatsBar" sid="8308020704391852">
+            <plugin id="progressbar" />
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>Pick a Pet Screen.xml</layout>
+        <layout>Confirm your Pet Screen.xml</layout>
+        <layout>Main Screen.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Pick a Pet Events.xml</event-sheet>
+        <event-sheet>Confirm your Pet Events.xml</event-sheet>
+        <event-sheet>Main Events.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Touch" uid="11">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
+            </properties>
+        </global-instance>
+    </global-instances>
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>

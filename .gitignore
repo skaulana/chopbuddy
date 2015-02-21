@@ -1,0 +1,8 @@
+# Construct 2 accessory files
+*.uistate.xml
+*.capx.autosave
+*.capx.backup1
+*.capx.backup2
+
+# Windows generated thumbnails
+**/Thumbs.db
