@@ -226,6 +226,19 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="MainBackground" sid="4229441516336039">
+            <plugin id="TiledBg" />
+            <behaviors>
+                <behavior-type name="Sine" sid="683486150233047">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="C:\Users\Sean\Desktop\main-background.jpg" />
+        </object-type>
+        <object-type name="MainBackground2" sid="1798977088907954">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\Sean\Desktop\main-background.jpg" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
