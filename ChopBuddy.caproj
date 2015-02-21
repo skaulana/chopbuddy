@@ -235,10 +235,6 @@
             </behaviors>
             <texture original-source="C:\Users\Sean\Desktop\main-background.jpg" />
         </object-type>
-        <object-type name="MainBackground2" sid="1798977088907954">
-            <plugin id="TiledBg" />
-            <texture original-source="C:\Users\Sean\Desktop\main-background.jpg" />
-        </object-type>
         <object-type name="HealthyPlateInfo" sid="7692784076654168">
             <plugin id="Sprite" />
             <animation-folder>
@@ -249,6 +245,49 @@
                             <point x="0.990119" y="0.0125" />
                             <point x="0.990119" y="0.9875" />
                             <point x="0.00988142" y="0.9875" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ThoughtBubble" sid="3516030215084185">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="9723566693051821">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1784816293329668" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Sean\Desktop\thought-bubble.png">
+                        <collision-poly>
+                            <point x="0.175" y="0.244186" />
+                            <point x="0.5" y="0.0255814" />
+                            <point x="0.805" y="0.272093" />
+                            <point x="1" y="0.5" />
+                            <point x="0.818333" y="0.746512" />
+                            <point x="0.5" y="0.97907" />
+                            <point x="0.161667" y="0.774419" />
+                            <point x="0.0133333" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ThoughtCircle" sid="4069072403336892">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4098226684315252" speed="5">
+                    <frame duration="1" hotspotX="0.515625" hotspotY="0.515625" original-source="C:\Users\Sean\Desktop\thought-circle.png">
+                        <collision-poly>
+                            <point x="0.140625" y="0.140625" />
+                            <point x="0.5" y="0" />
+                            <point x="0.859375" y="0.140625" />
+                            <point x="1" y="0.5" />
+                            <point x="0.84375" y="0.84375" />
+                            <point x="0.5" y="1" />
+                            <point x="0.15625" y="0.84375" />
+                            <point x="0" y="0.5" />
                         </collision-poly>
                     </frame>
                 </animation>
