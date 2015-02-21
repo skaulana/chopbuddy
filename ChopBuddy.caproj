@@ -239,17 +239,34 @@
             <plugin id="TiledBg" />
             <texture original-source="C:\Users\Sean\Desktop\main-background.jpg" />
         </object-type>
+        <object-type name="HealthyPlateInfo" sid="7692784076654168">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5123761379107969" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Sean\Desktop\healthy-eating.png">
+                        <collision-poly>
+                            <point x="0.00889328" y="0.01125" />
+                            <point x="0.990119" y="0.0125" />
+                            <point x="0.990119" y="0.9875" />
+                            <point x="0.00988142" y="0.9875" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
         <layout>Pick a Pet Screen.xml</layout>
         <layout>Confirm your Pet Screen.xml</layout>
         <layout>Main Screen.xml</layout>
+        <layout>Healthy Eating Screen.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Pick a Pet Events.xml</event-sheet>
         <event-sheet>Confirm your Pet Events.xml</event-sheet>
         <event-sheet>Main Events.xml</event-sheet>
+        <event-sheet>Healthy Eating Events.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Touch" uid="11">

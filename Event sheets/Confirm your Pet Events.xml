@@ -168,11 +168,33 @@
             <conditions>
                 <condition id="0" name="On clicked" sid="5155618893714571" type="Button" />
             </conditions>
-            <actions>
-                <action id="-2" name="Go to layout" sid="1495197617600801" type="System">
-                    <param id="0" name="Layout">Main Screen</param>
-                </action>
-            </actions>
+            <actions />
+            <sub-events>
+                <event-block sid="4806236598514086">
+                    <conditions>
+                        <condition id="-14" name="Pick by unique ID" sid="5062734876994945" type="Button">
+                            <param id="0" name="Unique ID">21</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="1495197617600801" type="System">
+                            <param id="0" name="Layout">Main Screen</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="8633216097103293">
+                    <conditions>
+                        <condition id="-14" name="Pick by unique ID" sid="9655373059948067" type="Button">
+                            <param id="0" name="Unique ID">48</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="3555928947703762" type="System">
+                            <param id="0" name="Layout">Healthy Eating Screen</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
         </event-block>
     </events>
 </c2eventsheet>
