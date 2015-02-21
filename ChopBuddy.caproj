@@ -207,6 +207,25 @@
         <object-type name="StatsBar" sid="8308020704391852">
             <plugin id="progressbar" />
         </object-type>
+        <object-type name="ChopBuddyLogo" sid="2692859630838749">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4386765446496223" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Sean\Documents\GitHub\chopbuddy\imports\chopbuddy logo.png">
+                        <collision-poly>
+                            <point x="0.309091" y="0.425" />
+                            <point x="0.5" y="0.40625" />
+                            <point x="0.690909" y="0.425" />
+                            <point x="0.893182" y="0.5" />
+                            <point x="0.725" y="0.621875" />
+                            <point x="0.5" y="0.6125" />
+                            <point x="0.277273" y="0.61875" />
+                            <point x="0.0840909" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
