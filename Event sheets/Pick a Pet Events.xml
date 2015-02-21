@@ -35,6 +35,17 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="2903270191756525">
+            <conditions>
+                <condition id="0" name="On clicked" sid="9073056385969514" type="Button" />
+            </conditions>
+            <actions>
+                <action id="2" name="Log in" sid="1200659930292922" type="Facebook">
+                    <param id="0" name="Stream permission">0</param>
+                    <param id="1" name="Action permission">0</param>
+                </action>
+            </actions>
+        </event-block>
         <event-block sid="6071269336235222">
             <conditions>
                 <condition id="17" name="On tap object" sid="3849724435787779" type="Touch">
@@ -68,6 +79,19 @@
                 </action>
                 <action id="-2" name="Go to layout" sid="9575724060463786" type="System">
                     <param id="0" name="Layout">Confirm your Pet Screen</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="6322158841371331">
+            <conditions>
+                <condition id="2" name="On user logged in" sid="9568897652081976" type="Facebook" />
+                <condition id="-14" name="Pick by unique ID" sid="2890842445956969" type="Button">
+                    <param id="0" name="Unique ID">59</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="4571021527809497" type="Button">
+                    <param id="0" name="Text">&quot;Hi &quot; &amp; Facebook.FirstName &amp; &quot;!&quot;</param>
                 </action>
             </actions>
         </event-block>

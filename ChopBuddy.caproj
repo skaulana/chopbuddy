@@ -13,6 +13,7 @@
         <plugin author="Scirra" id="Arr" version="1">Array</plugin>
         <plugin author="Scirra" id="Button" version="1">Button</plugin>
         <plugin author="Scirra" id="Dictionary" version="1">Dictionary</plugin>
+        <plugin author="Scirra" id="Facebook" version="1">Facebook</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
@@ -222,7 +223,7 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4386765446496223" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Sean\Documents\GitHub\chopbuddy\imports\chopbuddy logo.png">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Sean\Desktop\chopbu.png">
                         <collision-poly>
                             <point x="0.309091" y="0.425" />
                             <point x="0.5" y="0.40625" />
@@ -307,6 +308,9 @@
         <object-type global="1" name="HealthTips" sid="8039184101662829">
             <plugin id="Arr" />
         </object-type>
+        <object-type name="Facebook" sid="1081444358564398">
+            <plugin id="Facebook" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -325,6 +329,12 @@
         <global-instance type="Touch" uid="11">
             <properties>
                 <use-mouse-input>Yes</use-mouse-input>
+            </properties>
+        </global-instance>
+        <global-instance type="Facebook" uid="58">
+            <properties>
+                <app-id>1569493316624447</app-id>
+                <app-secret></app-secret>
             </properties>
         </global-instance>
     </global-instances>

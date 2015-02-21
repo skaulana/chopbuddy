@@ -138,6 +138,19 @@
                         </event-block>
                     </sub-events>
                 </event-block>
+                <event-block sid="5254099225889199">
+                    <conditions>
+                        <condition id="1" name="Is user logged in" sid="7303607681168528" type="Facebook" />
+                        <condition id="-14" name="Pick by unique ID" sid="7677419072076585" type="DescriptionText">
+                            <param id="0" name="Unique ID">39</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="8348456732336465" type="DescriptionText">
+                            <param id="0" name="Text">Facebook.FirstName &amp; &quot;&apos;s ChopBuddy vs. friends&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
             </sub-events>
         </event-block>
         <event-block sid="1154452958132362">

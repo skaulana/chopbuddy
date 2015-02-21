@@ -64,11 +64,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>93</x>
-                        <y>110</y>
+                        <x>242</x>
+                        <y>93</y>
                         <z>0</z>
-                        <width>679</width>
-                        <height>92</height>
+                        <width>527</width>
+                        <height>100</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -296,16 +296,40 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>434</x>
-                        <y>50</y>
+                        <x>127.433197021</x>
+                        <y>105.754859924</y>
                         <z>0</z>
-                        <width>242.181732178</width>
-                        <height>176.13218689</height>
+                        <width>162.949005127</width>
+                        <height>171.096466064</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Button" uid="59">
+                    <properties>
+                        <type>Button</type>
+                        <text>Connect to Facebook</text>
+                        <tooltip></tooltip>
+                        <initial-visibility>Visible</initial-visibility>
+                        <enabled>Yes</enabled>
+                        <auto-font-size>Yes</auto-font-size>
+                        <id-optional></id-optional>
+                        <checked>No</checked>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>563</x>
+                        <y>42</y>
+                        <z>0</z>
+                        <width>251</width>
+                        <height>26</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
                     </world>
                 </instance>
             </instances>
