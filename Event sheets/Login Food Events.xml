@@ -1,385 +1,385 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
-    <name>Main Events</name>
+    <name>Login Food Events</name>
     <events>
-        <event-block sid="388406031089551">
+        <event-block sid="8532611743582734">
             <conditions>
-                <condition id="-2" name="On start of layout" sid="2246284635847718" type="System" />
+                <condition id="-2" name="On start of layout" sid="3773407058610898" type="System" />
             </conditions>
             <actions />
             <sub-events>
-                <event-block sid="1022657330640588">
+                <event-block sid="2058146066095385">
                     <conditions>
-                        <condition id="0" name="Compare value" sid="8717479378093146" type="PetData">
+                        <condition id="0" name="Compare value" sid="9754856418793601" type="PetData">
                             <param id="0" name="Key">&quot;petType&quot;</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">&quot;lion&quot;</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-3" name="Create object" sid="8054432808483621" type="System">
+                        <action id="-3" name="Create object" sid="8024175368658997" type="System">
                             <param id="0" name="Object to create">Lion</param>
                             <param id="1" name="Layer">0</param>
                             <param id="2" name="X">150</param>
-                            <param id="3" name="Y">100</param>
+                            <param id="3" name="Y">400</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="2325241326477175">
+                <event-block sid="386235807132499">
                     <conditions>
-                        <condition id="0" name="Compare value" sid="3892720930497543" type="PetData">
+                        <condition id="0" name="Compare value" sid="9262423038929128" type="PetData">
                             <param id="0" name="Key">&quot;petType&quot;</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">&quot;rhino&quot;</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-3" name="Create object" sid="8563618133690143" type="System">
+                        <action id="-3" name="Create object" sid="4877609662145379" type="System">
                             <param id="0" name="Object to create">Rhino</param>
                             <param id="1" name="Layer">0</param>
                             <param id="2" name="X">150</param>
-                            <param id="3" name="Y">100</param>
+                            <param id="3" name="Y">400</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="7578192398478144">
+                <event-block sid="7452704516301693">
                     <conditions>
-                        <condition id="0" name="Compare value" sid="6271817930956515" type="PetData">
+                        <condition id="0" name="Compare value" sid="7954217724039202" type="PetData">
                             <param id="0" name="Key">&quot;petType&quot;</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">&quot;turtle&quot;</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-3" name="Create object" sid="8767864746326294" type="System">
+                        <action id="-3" name="Create object" sid="7272309500414118" type="System">
                             <param id="0" name="Object to create">Turtle</param>
                             <param id="1" name="Layer">0</param>
                             <param id="2" name="X">150</param>
-                            <param id="3" name="Y">100</param>
+                            <param id="3" name="Y">400</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="3921518263286638">
+                <event-block sid="4518786408982002">
                     <conditions>
-                        <condition id="-14" name="Pick by unique ID" sid="1932953964083414" type="TitleText">
+                        <condition id="-14" name="Pick by unique ID" sid="7185823256600212" type="TitleText">
                             <param id="0" name="Unique ID">55</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="0" name="Set text" sid="9864576538479829" type="TitleText">
+                        <action id="0" name="Set text" sid="2699630397589396" type="TitleText">
                             <param id="0" name="Text">&quot;+&quot; &amp; PetData.Get(&quot;todayBreakfast&quot;)</param>
                         </action>
                     </actions>
                     <sub-events>
-                        <event-block sid="6557904678874439">
+                        <event-block sid="8436650977872426">
                             <conditions>
-                                <condition id="0" name="Compare value" sid="3421066382889144" type="PetData">
+                                <condition id="0" name="Compare value" sid="1719104475070216" type="PetData">
                                     <param id="0" name="Key">&quot;todayBreakfast&quot;</param>
                                     <param id="1" name="Comparison">0</param>
                                     <param id="2" name="Value">0</param>
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="-9" name="Destroy" sid="8508747044399797" type="TitleText" />
+                                <action id="-9" name="Destroy" sid="2777511800900387" type="TitleText" />
                             </actions>
                         </event-block>
                     </sub-events>
                 </event-block>
-                <event-block sid="9423668088534676">
+                <event-block sid="2286753033881542">
                     <conditions>
-                        <condition id="-14" name="Pick by unique ID" sid="8900649488106776" type="TitleText">
+                        <condition id="-14" name="Pick by unique ID" sid="1456154865238827" type="TitleText">
                             <param id="0" name="Unique ID">56</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="0" name="Set text" sid="8861898898323758" type="TitleText">
+                        <action id="0" name="Set text" sid="1788246099820117" type="TitleText">
                             <param id="0" name="Text">&quot;+&quot; &amp; PetData.Get(&quot;todayLunch&quot;)</param>
                         </action>
                     </actions>
                     <sub-events>
-                        <event-block sid="5154427742265185">
+                        <event-block sid="483861697651331">
                             <conditions>
-                                <condition id="0" name="Compare value" sid="1133754048261158" type="PetData">
+                                <condition id="0" name="Compare value" sid="5478280489176639" type="PetData">
                                     <param id="0" name="Key">&quot;todayLunch&quot;</param>
                                     <param id="1" name="Comparison">0</param>
                                     <param id="2" name="Value">0</param>
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="-9" name="Destroy" sid="6007663594763189" type="TitleText" />
+                                <action id="-9" name="Destroy" sid="9913732805679486" type="TitleText" />
                             </actions>
                         </event-block>
                     </sub-events>
                 </event-block>
-                <event-block sid="2880089948324141">
+                <event-block sid="5398608838937629">
                     <conditions>
-                        <condition id="-14" name="Pick by unique ID" sid="3860201667236228" type="TitleText">
+                        <condition id="-14" name="Pick by unique ID" sid="288162906973806" type="TitleText">
                             <param id="0" name="Unique ID">57</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="0" name="Set text" sid="3244794716427836" type="TitleText">
+                        <action id="0" name="Set text" sid="7328611282013336" type="TitleText">
                             <param id="0" name="Text">&quot;+&quot; &amp; PetData.Get(&quot;todayDinner&quot;)</param>
                         </action>
                     </actions>
                     <sub-events>
-                        <event-block sid="1444131636390802">
+                        <event-block sid="6322576380308468">
                             <conditions>
-                                <condition id="0" name="Compare value" sid="5262951090301217" type="PetData">
+                                <condition id="0" name="Compare value" sid="8392218109665268" type="PetData">
                                     <param id="0" name="Key">&quot;todayDinner&quot;</param>
                                     <param id="1" name="Comparison">0</param>
                                     <param id="2" name="Value">0</param>
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="-9" name="Destroy" sid="4536857401205397" type="TitleText" />
+                                <action id="-9" name="Destroy" sid="6123719509534655" type="TitleText" />
                             </actions>
                         </event-block>
                     </sub-events>
                 </event-block>
-                <event-block sid="5254099225889199">
+                <event-block sid="5352266735357556">
                     <conditions>
-                        <condition id="1" name="Is user logged in" sid="7303607681168528" type="Facebook" />
-                        <condition id="-14" name="Pick by unique ID" sid="7677419072076585" type="DescriptionText">
+                        <condition id="1" name="Is user logged in" sid="3030757868803932" type="Facebook" />
+                        <condition id="-14" name="Pick by unique ID" sid="5834052482148886" type="DescriptionText">
                             <param id="0" name="Unique ID">39</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="0" name="Set text" sid="8348456732336465" type="DescriptionText">
+                        <action id="0" name="Set text" sid="9139525742342061" type="DescriptionText">
                             <param id="0" name="Text">Facebook.FirstName &amp; &quot;&apos;s ChopBuddy vs. friends&quot;</param>
                         </action>
                     </actions>
                 </event-block>
             </sub-events>
         </event-block>
-        <event-block sid="1154452958132362">
+        <event-block sid="4722833463543997">
             <conditions>
-                <condition id="-18" name="On created" sid="9244579460940509" type="Lion" />
+                <condition id="-18" name="On created" sid="6287899886908907" type="Lion" />
             </conditions>
             <actions>
-                <action behavior="Sine" id="3" name="Set movement" sid="3120243876653489" type="Lion">
+                <action behavior="Sine" id="3" name="Set movement" sid="7350723160991204" type="Lion">
                     <param id="0" name="Movement">0</param>
                 </action>
-                <action behavior="Sine" id="2" name="Set magnitude" sid="5978474721923106" type="Lion">
+                <action behavior="Sine" id="2" name="Set magnitude" sid="2585083316495941" type="Lion">
                     <param id="0" name="Magnitude">10</param>
                 </action>
-                <action behavior="Sine" id="0" name="Set active" sid="6211206957242826" type="Lion">
+                <action behavior="Sine" id="0" name="Set active" sid="3175612798516319" type="Lion">
                     <param id="0" name="State">1</param>
                 </action>
             </actions>
         </event-block>
-        <event-block sid="4564232560077494">
+        <event-block sid="6034913620635389">
             <conditions>
-                <condition id="-18" name="On created" sid="7132085042708967" type="Rhino" />
+                <condition id="-18" name="On created" sid="3962206873058687" type="Rhino" />
             </conditions>
             <actions>
-                <action behavior="Sine" id="3" name="Set movement" sid="7703200957555157" type="Rhino">
+                <action behavior="Sine" id="3" name="Set movement" sid="7848490639048355" type="Rhino">
                     <param id="0" name="Movement">0</param>
                 </action>
-                <action behavior="Sine" id="2" name="Set magnitude" sid="7749628547764071" type="Rhino">
+                <action behavior="Sine" id="2" name="Set magnitude" sid="8661088545696868" type="Rhino">
                     <param id="0" name="Magnitude">10</param>
                 </action>
-                <action behavior="Sine" id="0" name="Set active" sid="6300595728420844" type="Rhino">
+                <action behavior="Sine" id="0" name="Set active" sid="9095103325036871" type="Rhino">
                     <param id="0" name="State">1</param>
                 </action>
             </actions>
         </event-block>
-        <event-block sid="970145088629056">
+        <event-block sid="55353707029837">
             <conditions>
-                <condition id="-18" name="On created" sid="4175095162706127" type="Turtle" />
+                <condition id="-18" name="On created" sid="6330493947032466" type="Turtle" />
             </conditions>
             <actions>
-                <action behavior="Sine" id="3" name="Set movement" sid="4523880209052671" type="Turtle">
+                <action behavior="Sine" id="3" name="Set movement" sid="3872583910487948" type="Turtle">
                     <param id="0" name="Movement">0</param>
                 </action>
-                <action behavior="Sine" id="2" name="Set magnitude" sid="2080439148818919" type="Turtle">
+                <action behavior="Sine" id="2" name="Set magnitude" sid="9564491183107418" type="Turtle">
                     <param id="0" name="Magnitude">10</param>
                 </action>
-                <action behavior="Sine" id="0" name="Set active" sid="9241597429471804" type="Turtle">
+                <action behavior="Sine" id="0" name="Set active" sid="6468566830914697" type="Turtle">
                     <param id="0" name="State">1</param>
                 </action>
             </actions>
         </event-block>
-        <event-block sid="4480268142891875">
+        <event-block sid="9090367971049109">
             <conditions>
-                <condition id="-18" name="On created" sid="4273372572333678" type="StatsBar" />
+                <condition id="-18" name="On created" sid="5143765418846099" type="StatsBar" />
             </conditions>
             <actions />
             <sub-events>
-                <event-block sid="2759257606162158">
+                <event-block sid="159097892072781">
                     <conditions>
-                        <condition id="-14" name="Pick by unique ID" sid="2008415506929802" type="StatsBar">
+                        <condition id="-14" name="Pick by unique ID" sid="2921877315648889" type="StatsBar">
                             <param id="0" name="Unique ID">22</param>
                         </condition>
-                        <condition id="-14" name="Pick by unique ID" sid="6450278670098107" type="TitleText">
+                        <condition id="-14" name="Pick by unique ID" sid="64859358853857" type="TitleText">
                             <param id="0" name="Unique ID">28</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="3" name="Set progress" sid="1820182229731506" type="StatsBar">
+                        <action id="3" name="Set progress" sid="4526916776959137" type="StatsBar">
                             <param id="0" name="Value">PetData.Get(&quot;energyLevel&quot;)</param>
                         </action>
-                        <action id="0" name="Set text" sid="792002729615397" type="TitleText">
+                        <action id="0" name="Set text" sid="6013927651188281" type="TitleText">
                             <param id="0" name="Text">HealthTips.At(floor(random(HealthTips.Width)))</param>
                         </action>
                     </actions>
                     <sub-events>
-                        <event-block sid="2322473044607346">
+                        <event-block sid="4647547204417384">
                             <conditions>
-                                <condition id="1" name="Compare progress" sid="3855155383519711" type="StatsBar">
+                                <condition id="1" name="Compare progress" sid="5818434538399481" type="StatsBar">
                                     <param id="0" name="Comparison">2</param>
                                     <param id="1" name="Value">2</param>
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="0" name="Set text" sid="8633108684374877" type="TitleText">
+                                <action id="0" name="Set text" sid="1354465078790187" type="TitleText">
                                     <param id="0" name="Text">&quot;I&apos;m hungry... did you eat anything yet today? Don&apos;t forget to log it!&quot;</param>
                                 </action>
                             </actions>
                         </event-block>
-                        <event-block sid="3472600523922869">
+                        <event-block sid="3289505028876409">
                             <conditions>
-                                <condition id="1" name="Compare progress" sid="7551838999501632" type="StatsBar">
+                                <condition id="1" name="Compare progress" sid="5451738644789726" type="StatsBar">
                                     <param id="0" name="Comparison">4</param>
                                     <param id="1" name="Value">80</param>
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="0" name="Set text" sid="120361248678526" type="TitleText">
+                                <action id="0" name="Set text" sid="7358770944709885" type="TitleText">
                                     <param id="0" name="Text">&quot;I feel amazing! You&apos;re doing such a great job with your eating!&quot;</param>
                                 </action>
                             </actions>
                         </event-block>
                     </sub-events>
                 </event-block>
-                <event-block sid="7338839079203923">
+                <event-block sid="1385158521671341">
                     <conditions>
-                        <condition id="-14" name="Pick by unique ID" sid="7591932669888864" type="StatsBar">
+                        <condition id="-14" name="Pick by unique ID" sid="4930188222823594" type="StatsBar">
                             <param id="0" name="Unique ID">23</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="3" name="Set progress" sid="6347499789097198" type="StatsBar">
+                        <action id="3" name="Set progress" sid="8805084145428481" type="StatsBar">
                             <param id="0" name="Value">PetData.Get(&quot;heartLevel&quot;)</param>
                         </action>
                     </actions>
                 </event-block>
             </sub-events>
         </event-block>
-        <event-block sid="9392438896432919">
+        <event-block sid="276940009678216">
             <conditions>
-                <condition id="0" name="On clicked" sid="8760551115929663" type="Button" />
+                <condition id="0" name="On clicked" sid="3845626623206455" type="Button" />
             </conditions>
             <actions />
             <sub-events>
-                <event-block sid="5143753168007839">
+                <event-block sid="3821588115267611">
                     <conditions>
-                        <condition id="-14" name="Pick by unique ID" sid="1116462967993403" type="Button">
+                        <condition id="-14" name="Pick by unique ID" sid="2405189725667155" type="Button">
                             <param id="0" name="Unique ID">27</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-2" name="Go to layout" sid="1765501219447007" type="System">
+                        <action id="-2" name="Go to layout" sid="5537476690191042" type="System">
                             <param id="0" name="Layout">Healthy Eating Screen</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="909029462645429">
+                <event-block sid="435732265374004">
                     <conditions>
-                        <condition id="-14" name="Pick by unique ID" sid="8479918377372519" type="Button">
+                        <condition id="-14" name="Pick by unique ID" sid="9940314662572505" type="Button">
                             <param id="0" name="Unique ID">26</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="1" name="Set key" sid="9646279277421728" type="PetData">
+                        <action id="1" name="Set key" sid="4784888005133401" type="PetData">
                             <param id="0" name="Key">&quot;energyLevel&quot;</param>
                             <param id="1" name="Value">PetData.Get(&quot;energyLevel&quot;) + 10</param>
                         </action>
-                        <action id="1" name="Set key" sid="1319739457402918" type="PetData">
+                        <action id="1" name="Set key" sid="1334762031396567" type="PetData">
                             <param id="0" name="Key">&quot;energyLevel&quot;</param>
                             <param id="1" name="Value">PetData.Get(&quot;energyLevel&quot;) &gt; 100 ? 0 : PetData.Get(&quot;energyLevel&quot;)</param>
                         </action>
-                        <action id="1" name="Set key" sid="4933558853357922" type="PetData">
+                        <action id="1" name="Set key" sid="7659675560025892" type="PetData">
                             <param id="0" name="Key">&quot;todayBreakfast&quot;</param>
                             <param id="1" name="Value">5</param>
                         </action>
-                        <action id="-26" name="Restart layout" sid="4334198237495899" type="System" />
+                        <action id="-26" name="Restart layout" sid="1427240441180997" type="System" />
                     </actions>
                 </event-block>
-                <event-block sid="5972573966790707">
+                <event-block sid="2281505415275666">
                     <conditions>
-                        <condition id="-14" name="Pick by unique ID" sid="3804625328982205" type="Button">
+                        <condition id="-14" name="Pick by unique ID" sid="3878379592241481" type="Button">
                             <param id="0" name="Unique ID">29</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-2" name="Go to layout" sid="4464692735468948" type="System">
+                        <action id="-2" name="Go to layout" sid="7651047749879494" type="System">
                             <param id="0" name="Layout">Login Food Screen</param>
                         </action>
                     </actions>
                 </event-block>
             </sub-events>
         </event-block>
-        <event-block sid="7816208396876385">
+        <event-block sid="9136716138279278">
             <conditions>
-                <condition id="17" name="On tap object" sid="1545497622389037" type="Touch">
+                <condition id="17" name="On tap object" sid="4150364829783746" type="Touch">
                     <param id="0" name="Object">Lion</param>
                 </condition>
             </conditions>
             <actions>
-                <action behavior="Rotate" id="0" name="Set speed" sid="6343956957247786" type="Lion">
+                <action behavior="Rotate" id="0" name="Set speed" sid="4323262684292126" type="Lion">
                     <param id="0" name="Speed">1080</param>
                 </action>
-                <action id="-16" name="Wait" sid="3632123097012408" type="System">
+                <action id="-16" name="Wait" sid="3615372915222427" type="System">
                     <param id="0" name="Seconds">1</param>
                 </action>
-                <action behavior="Rotate" id="0" name="Set speed" sid="9655135576536475" type="Lion">
+                <action behavior="Rotate" id="0" name="Set speed" sid="4789720944883824" type="Lion">
                     <param id="0" name="Speed">0</param>
                 </action>
-                <action id="-8" name="Set angle" sid="2813135690758409" type="Lion">
+                <action id="-8" name="Set angle" sid="4836757574140247" type="Lion">
                     <param id="0" name="Angle">0</param>
                 </action>
             </actions>
         </event-block>
-        <event-block sid="9146481014803932">
+        <event-block sid="6453085290580794">
             <conditions>
-                <condition id="17" name="On tap object" sid="1223453701314422" type="Touch">
+                <condition id="17" name="On tap object" sid="2545364525335361" type="Touch">
                     <param id="0" name="Object">Rhino</param>
                 </condition>
             </conditions>
             <actions>
-                <action behavior="Rotate" id="0" name="Set speed" sid="3413790423354721" type="Rhino">
+                <action behavior="Rotate" id="0" name="Set speed" sid="2364951227961956" type="Rhino">
                     <param id="0" name="Speed">1080</param>
                 </action>
-                <action id="-16" name="Wait" sid="3628620257335383" type="System">
+                <action id="-16" name="Wait" sid="7835750732836098" type="System">
                     <param id="0" name="Seconds">1</param>
                 </action>
-                <action behavior="Rotate" id="0" name="Set speed" sid="5521786621954188" type="Rhino">
+                <action behavior="Rotate" id="0" name="Set speed" sid="1262363109927624" type="Rhino">
                     <param id="0" name="Speed">0</param>
                 </action>
-                <action id="-8" name="Set angle" sid="4379001660823277" type="Rhino">
+                <action id="-8" name="Set angle" sid="8833393534214767" type="Rhino">
                     <param id="0" name="Angle">0</param>
                 </action>
             </actions>
         </event-block>
-        <event-block sid="1367794603965357">
+        <event-block sid="5839049211131232">
             <conditions>
-                <condition id="17" name="On tap object" sid="937846953226394" type="Touch">
+                <condition id="17" name="On tap object" sid="6705889946843241" type="Touch">
                     <param id="0" name="Object">Turtle</param>
                 </condition>
             </conditions>
             <actions>
-                <action behavior="Rotate" id="0" name="Set speed" sid="902071567344263" type="Turtle">
+                <action behavior="Rotate" id="0" name="Set speed" sid="1585661011277655" type="Turtle">
                     <param id="0" name="Speed">1080</param>
                 </action>
-                <action id="-16" name="Wait" sid="5427124355346767" type="System">
+                <action id="-16" name="Wait" sid="6771077201804836" type="System">
                     <param id="0" name="Seconds">1</param>
                 </action>
-                <action behavior="Rotate" id="0" name="Set speed" sid="9416173918474276" type="Turtle">
+                <action behavior="Rotate" id="0" name="Set speed" sid="3154152538818726" type="Turtle">
                     <param id="0" name="Speed">0</param>
                 </action>
-                <action id="-8" name="Set angle" sid="3882368366308682" type="Turtle">
+                <action id="-8" name="Set angle" sid="7196271657080279" type="Turtle">
                     <param id="0" name="Angle">0</param>
                 </action>
             </actions>

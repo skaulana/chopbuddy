@@ -311,6 +311,234 @@
         <object-type name="Facebook" sid="1081444358564398">
             <plugin id="Facebook" />
         </object-type>
+        <object-type name="LoginBackground" sid="3384537154654241">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\Dexterous\Desktop\ChopBuddy files\game images\bg_silver_noise_grey.jpg" />
+        </object-type>
+        <object-type name="TiledBackground" sid="859601824331262">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="TiledBackground2" sid="9763494022515838">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="TiledBackground3" sid="901295167484923">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="TiledBackground4" sid="7370392948447343">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="bananaclipartblackandwhite1118bananasclipart" sid="4122761487532141">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5671295121346937" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501916" original-source="C:\Users\Dexterous\Desktop\ChopBuddy files\game images\banana-clipart-black-and-white-1118-bananas-clip-art.png">
+                        <collision-poly>
+                            <point x="0.43" y="0.494253" />
+                            <point x="0.5" y="0.467433" />
+                            <point x="0.86" y="0.16092" />
+                            <point x="0.99" y="0.498084" />
+                            <point x="0.833333" y="0.808429" />
+                            <point x="0.5" y="0.980843" />
+                            <point x="0.14" y="0.83908" />
+                            <point x="0.413333" y="0.498084" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ice" sid="223065419583064">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6700855286831701" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Dexterous\Desktop\ChopBuddy files\game images\ice.png">
+                        <collision-poly>
+                            <point x="0.234375" y="0.128571" />
+                            <point x="0.5" y="0.0571429" />
+                            <point x="0.807292" y="0.105714" />
+                            <point x="0.739583" y="0.5" />
+                            <point x="0.5625" y="0.76" />
+                            <point x="0.5" y="0.828571" />
+                            <point x="0.213542" y="0.882857" />
+                            <point x="0.119792" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="chickenlegvector" sid="4549013798348024">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="917933114292956" speed="5">
+                    <frame duration="1" hotspotX="0.50066" hotspotY="0.5" original-source="C:\Users\Dexterous\Desktop\ChopBuddy files\game images\chicken-leg-vector.png">
+                        <collision-poly>
+                            <point x="0.278732" y="0.363793" />
+                            <point x="0.499339" y="0.327586" />
+                            <point x="0.936592" y="0.0827586" />
+                            <point x="0.649934" y="0.5" />
+                            <point x="0.499339" y="0.82069" />
+                            <point x="0.0766182" y="0.9" />
+                            <point x="0.110964" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="flpricehi" sid="9966373868600733">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5456556193850384" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501002" original-source="C:\Users\Dexterous\Desktop\ChopBuddy files\game images\flp-rice-hi.png">
+                        <collision-poly>
+                            <point x="0.148333" y="0.178357" />
+                            <point x="0.5" y="0.0200401" />
+                            <point x="0.848333" y="0.182365" />
+                            <point x="0.983333" y="0.498998" />
+                            <point x="0.835" y="0.801603" />
+                            <point x="0.5" y="1" />
+                            <point x="0.178333" y="0.785571" />
+                            <point x="0.025" y="0.498998" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Platequarters" sid="1242374173724367">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9875375637022029" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Dexterous\Desktop\ChopBuddy files\game images\Plate-quarters8.png">
+                        <collision-poly>
+                            <point x="0.153333" y="0.153333" />
+                            <point x="0.5" y="0.0111111" />
+                            <point x="0.844444" y="0.155556" />
+                            <point x="0.986667" y="0.5" />
+                            <point x="0.844444" y="0.844444" />
+                            <point x="0.5" y="0.986667" />
+                            <point x="0.155556" y="0.844444" />
+                            <point x="0.0111111" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Platequarters2" sid="649980011446924">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3921834835060434" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Dexterous\Desktop\ChopBuddy files\game images\Plate-quarters7.png">
+                        <collision-poly>
+                            <point x="0.153333" y="0.153333" />
+                            <point x="0.5" y="0.0111111" />
+                            <point x="0.844444" y="0.155556" />
+                            <point x="0.986667" y="0.5" />
+                            <point x="0.844444" y="0.844444" />
+                            <point x="0.5" y="0.986667" />
+                            <point x="0.155556" y="0.844444" />
+                            <point x="0.0111111" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Platequarters3" sid="6346269701777548">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1097875397201781" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Dexterous\Desktop\ChopBuddy files\game images\Plate-quarters6.png">
+                        <collision-poly>
+                            <point x="0.153333" y="0.153333" />
+                            <point x="0.5" y="0.0111111" />
+                            <point x="0.844444" y="0.155556" />
+                            <point x="0.986667" y="0.5" />
+                            <point x="0.844444" y="0.844444" />
+                            <point x="0.5" y="0.986667" />
+                            <point x="0.155556" y="0.844444" />
+                            <point x="0.0111111" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Platequarters4" sid="2424484234112206">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2850978818062978" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Dexterous\Desktop\ChopBuddy files\game images\Plate-quarters4.png">
+                        <collision-poly>
+                            <point x="0.153333" y="0.153333" />
+                            <point x="0.5" y="0.0111111" />
+                            <point x="0.844444" y="0.155556" />
+                            <point x="0.986667" y="0.5" />
+                            <point x="0.844444" y="0.844444" />
+                            <point x="0.5" y="0.986667" />
+                            <point x="0.155556" y="0.844444" />
+                            <point x="0.0111111" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Platequarters5" sid="5814782089378414">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5079354272759544" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Dexterous\Desktop\ChopBuddy files\game images\Plate-quarters3.png">
+                        <collision-poly>
+                            <point x="0.153333" y="0.153333" />
+                            <point x="0.5" y="0.0111111" />
+                            <point x="0.844444" y="0.155556" />
+                            <point x="0.986667" y="0.5" />
+                            <point x="0.844444" y="0.844444" />
+                            <point x="0.5" y="0.986667" />
+                            <point x="0.155556" y="0.844444" />
+                            <point x="0.0111111" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Platequarters6" sid="5965647833925771">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2174848700706297" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Dexterous\Desktop\ChopBuddy files\game images\Plate-quarters2.png">
+                        <collision-poly>
+                            <point x="0.153333" y="0.153333" />
+                            <point x="0.5" y="0.0111111" />
+                            <point x="0.844444" y="0.155556" />
+                            <point x="0.986667" y="0.5" />
+                            <point x="0.844444" y="0.844444" />
+                            <point x="0.5" y="0.986667" />
+                            <point x="0.155556" y="0.844444" />
+                            <point x="0.0111111" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Platequarters7" sid="6379938364918633">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1577455868717501" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Dexterous\Desktop\ChopBuddy files\game images\Plate-quarters1.png">
+                        <collision-poly>
+                            <point x="0.153333" y="0.153333" />
+                            <point x="0.5" y="0.0111111" />
+                            <point x="0.844444" y="0.155556" />
+                            <point x="0.986667" y="0.5" />
+                            <point x="0.844444" y="0.844444" />
+                            <point x="0.5" y="0.986667" />
+                            <point x="0.155556" y="0.844444" />
+                            <point x="0.0111111" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -318,12 +546,14 @@
         <layout>Confirm your Pet Screen.xml</layout>
         <layout>Main Screen.xml</layout>
         <layout>Healthy Eating Screen.xml</layout>
+        <layout>Login Food Screen.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Pick a Pet Events.xml</event-sheet>
         <event-sheet>Confirm your Pet Events.xml</event-sheet>
         <event-sheet>Main Events.xml</event-sheet>
         <event-sheet>Healthy Eating Events.xml</event-sheet>
+        <event-sheet>Login Food Events.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Touch" uid="11">
