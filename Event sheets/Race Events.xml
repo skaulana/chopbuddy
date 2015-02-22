@@ -68,12 +68,6 @@
                     <param id="1" name="Y">2</param>
                     <param id="2" name="Value">&quot;elephant&quot;</param>
                 </action>
-                <action id="8" name="Sort" sid="2068358506566893" type="Leaderboard">
-                    <param id="0" name="Axis">0</param>
-                </action>
-                <action id="7" name="Reverse" sid="7959902032392734" type="Leaderboard">
-                    <param id="0" name="Axis">0</param>
-                </action>
             </actions>
             <sub-events>
                 <event-block sid="7623971729968528">
@@ -85,6 +79,25 @@
                             <param id="0" name="X">0</param>
                             <param id="1" name="Y">1</param>
                             <param id="2" name="Value">Facebook.FirstName &amp; &quot;&apos;s&quot;</param>
+                        </action>
+                        <action id="8" name="Sort" sid="2068358506566893" type="Leaderboard">
+                            <param id="0" name="Axis">0</param>
+                        </action>
+                        <action id="7" name="Reverse" sid="7959902032392734" type="Leaderboard">
+                            <param id="0" name="Axis">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1483671055780018">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="3968559647841078" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="8" name="Sort" sid="8362032553383009" type="Leaderboard">
+                            <param id="0" name="Axis">0</param>
+                        </action>
+                        <action id="7" name="Reverse" sid="6479799785892735" type="Leaderboard">
+                            <param id="0" name="Axis">0</param>
                         </action>
                     </actions>
                 </event-block>
