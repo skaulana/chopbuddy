@@ -342,7 +342,46 @@
                         <action id="-26" name="Restart layout" sid="4334198237495899" type="System" />
                     </actions>
                 </event-block>
+                <event-block sid="2320119929573428">
+                    <conditions>
+                        <condition id="-14" name="Pick by unique ID" sid="4585160276998917" type="Button">
+                            <param id="0" name="Unique ID">37</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Create object" sid="160303835946947" type="System">
+                            <param id="0" name="Object to create">TreatzShopFake</param>
+                            <param id="1" name="Layer">1</param>
+                            <param id="2" name="X">425</param>
+                            <param id="3" name="Y">250</param>
+                        </action>
+                        <action id="-24" name="Move to top" sid="9288299025656179" type="TreatzShopFake" />
+                        <action id="-9" name="Destroy" sid="8560624066335586" type="StatsBar" />
+                    </actions>
+                    <sub-events>
+                        <event-block sid="6591556126865342">
+                            <conditions>
+                                <condition id="-19" name="Pick all" sid="785382804615622" type="System">
+                                    <param id="0" name="Object">Button</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Destroy" sid="6759260570390764" type="Button" />
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
             </sub-events>
+        </event-block>
+        <event-block sid="8155147997807296">
+            <conditions>
+                <condition id="17" name="On tap object" sid="8016460288665158" type="Touch">
+                    <param id="0" name="Object">TreatzShopFake</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Restart layout" sid="9039125569686157" type="System" />
+            </actions>
         </event-block>
         <event-block sid="7816208396876385">
             <conditions>
