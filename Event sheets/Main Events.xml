@@ -308,6 +308,18 @@
                         </action>
                     </actions>
                 </event-block>
+                <event-block sid="277533593033738">
+                    <conditions>
+                        <condition id="-14" name="Pick by unique ID" sid="5633056106297738" type="Button">
+                            <param id="0" name="Unique ID">36</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="4474555813181098" type="System">
+                            <param id="0" name="Layout">Race Screen</param>
+                        </action>
+                    </actions>
+                </event-block>
                 <event-block sid="909029462645429">
                     <conditions>
                         <condition id="-14" name="Pick by unique ID" sid="8479918377372519" type="Button">

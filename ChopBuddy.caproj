@@ -21,6 +21,7 @@
         <plugin author="Scirra" id="progressbar" version="1">Progress bar</plugin>
     </used-plugins>
     <used-behaviors>
+        <behavior author="Scirra" id="Pathfinding" version="1">Pathfinding</behavior>
         <behavior author="Scirra" id="Rotate" version="1">Rotate</behavior>
         <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
     </used-behaviors>
@@ -121,6 +122,7 @@
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="123882317036425" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Sean\Desktop\lion.png">
+                        <image-point name="Imagepoint 1" x="1.25" y="0.198413" />
                         <collision-poly>
                             <point x="0.0909091" y="0.0634921" />
                             <point x="0.5" y="0.00793651" />
@@ -331,7 +333,7 @@
             <plugin id="TiledBg" />
             <texture />
         </object-type>
-        <object-type name="bananaclipartblackandwhite1118bananasclipart" sid="4122761487532141">
+        <object-type name="FoodBanana" sid="4122761487532141">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5671295121346937" speed="5">
@@ -350,7 +352,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="ice" sid="223065419583064">
+        <object-type name="FoodIceCream" sid="223065419583064">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6700855286831701" speed="5">
@@ -369,7 +371,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="chickenlegvector" sid="4549013798348024">
+        <object-type name="FoodChicken" sid="4549013798348024">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="917933114292956" speed="5">
@@ -387,7 +389,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="flpricehi" sid="9966373868600733">
+        <object-type name="FoodRice" sid="9966373868600733">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5456556193850384" speed="5">
@@ -539,7 +541,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="freshgrassandskyhi" sid="106859698282202">
+        <object-type name="GrassHill" sid="106859698282202">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6123852788908286" speed="5">
@@ -554,6 +556,84 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type global="1" name="Leaderboard" sid="6946302163301117">
+            <plugin id="Arr" />
+        </object-type>
+        <object-type name="Snake" sid="5027864466031408">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="5308091967664601">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5067793529956889" speed="5">
+                    <frame duration="1" hotspotX="0.507042" hotspotY="0.5" original-source="C:\Users\Sean\Desktop\snake.png">
+                        <collision-poly>
+                            <point x="0.380282" y="0.264706" />
+                            <point x="0.492958" y="0.0294118" />
+                            <point x="0.901408" y="0.0686275" />
+                            <point x="0.816901" y="0.5" />
+                            <point x="0.887324" y="0.921569" />
+                            <point x="0.492958" y="1" />
+                            <point x="0.112676" y="0.921569" />
+                            <point x="0.169014" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Elephant" sid="8939031809708233">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="4939384399936238">
+                    <behavior id="Sin" />
+                </behavior-type>
+                <behavior-type name="Pathfinding" sid="1592339220686222">
+                    <behavior id="Pathfinding" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5053297796265351" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.505376" original-source="C:\Users\Sean\Desktop\elephant.png">
+                        <collision-poly>
+                            <point x="0.0294118" y="0.0430108" />
+                            <point x="0.5" y="0.0430108" />
+                            <point x="0.830882" y="0.247312" />
+                            <point x="0.948529" y="0.494624" />
+                            <point x="0.970588" y="0.956989" />
+                            <point x="0.5" y="0.989247" />
+                            <point x="0.147059" y="0.784946" />
+                            <point x="0" y="0.494624" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Zebra" sid="4240748986744584">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="3604746175313978">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7849566171084585" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Sean\Desktop\zebra.png">
+                        <collision-poly>
+                            <point x="0.05" y="0.0431034" />
+                            <point x="0.5" y="0.37069" />
+                            <point x="0.57" y="0.37069" />
+                            <point x="0.85" y="0.5" />
+                            <point x="0.79" y="0.818965" />
+                            <point x="0.5" y="0.689655" />
+                            <point x="0.19" y="0.836207" />
+                            <point x="0.18" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -562,6 +642,7 @@
         <layout>Main Screen.xml</layout>
         <layout>Healthy Eating Screen.xml</layout>
         <layout>Login Food Screen.xml</layout>
+        <layout>Race Screen.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Pick a Pet Events.xml</event-sheet>
@@ -569,6 +650,7 @@
         <event-sheet>Main Events.xml</event-sheet>
         <event-sheet>Healthy Eating Events.xml</event-sheet>
         <event-sheet>Login Food Events.xml</event-sheet>
+        <event-sheet>Race Events.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Touch" uid="11">

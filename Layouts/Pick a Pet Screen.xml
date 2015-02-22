@@ -29,7 +29,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="freshgrassandskyhi" uid="62">
+                <instance type="GrassHill" uid="62">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -94,7 +94,7 @@
                                 <period>3</period>
                                 <period-random>0</period-random>
                                 <period-offset>0</period-offset>
-                                <period-offset-random>0</period-offset-random>
+                                <period-offset-random>1</period-offset-random>
                                 <magnitude>100</magnitude>
                                 <magnitude-random>0</magnitude-random>
                             </properties>
@@ -137,7 +137,7 @@
                                 <period>3</period>
                                 <period-random>0</period-random>
                                 <period-offset>0</period-offset>
-                                <period-offset-random>0</period-offset-random>
+                                <period-offset-random>1</period-offset-random>
                                 <magnitude>80</magnitude>
                                 <magnitude-random>0</magnitude-random>
                             </properties>
@@ -261,7 +261,7 @@
                                 <period>3</period>
                                 <period-random>0</period-random>
                                 <period-offset>0</period-offset>
-                                <period-offset-random>0</period-offset-random>
+                                <period-offset-random>1</period-offset-random>
                                 <magnitude>60</magnitude>
                                 <magnitude-random>0</magnitude-random>
                             </properties>

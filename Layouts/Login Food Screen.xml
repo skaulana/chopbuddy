@@ -230,7 +230,7 @@
                         <opacity>0.5</opacity>
                     </world>
                 </instance>
-                <instance type="bananaclipartblackandwhite1118bananasclipart" uid="71">
+                <instance type="FoodBanana" uid="71">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -252,7 +252,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ice" uid="72">
+                <instance type="FoodIceCream" uid="72">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -274,7 +274,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="chickenlegvector" uid="73">
+                <instance type="FoodChicken" uid="73">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -296,7 +296,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="flpricehi" uid="74">
+                <instance type="FoodRice" uid="74">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>

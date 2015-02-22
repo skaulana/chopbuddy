@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Race Events</name>
+    <events>
+        <event-block sid="1855689761715289">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="5814399260132605" type="System" />
+            </conditions>
+            <actions>
+                <action id="3" name="Set at XY" sid="4834149344157938" type="Leaderboard">
+                    <param id="0" name="X">0</param>
+                    <param id="1" name="Y">0</param>
+                    <param id="2" name="Value">PetData.Get(&quot;energyLevel&quot;)</param>
+                </action>
+                <action id="3" name="Set at XY" sid="6054737047287384" type="Leaderboard">
+                    <param id="0" name="X">0</param>
+                    <param id="1" name="Y">1</param>
+                    <param id="2" name="Value">&quot;Your&quot;</param>
+                </action>
+                <action id="3" name="Set at XY" sid="6351246430164065" type="Leaderboard">
+                    <param id="0" name="X">0</param>
+                    <param id="1" name="Y">2</param>
+                    <param id="2" name="Value">PetData.Get(&quot;petType&quot;)</param>
+                </action>
+                <action id="3" name="Set at XY" sid="2592370321919466" type="Leaderboard">
+                    <param id="0" name="X">1</param>
+                    <param id="1" name="Y">0</param>
+                    <param id="2" name="Value">2</param>
+                </action>
+                <action id="3" name="Set at XY" sid="880987663701261" type="Leaderboard">
+                    <param id="0" name="X">1</param>
+                    <param id="1" name="Y">1</param>
+                    <param id="2" name="Value">&quot;Kofie&apos;s&quot;</param>
+                </action>
+                <action id="3" name="Set at XY" sid="291829380845475" type="Leaderboard">
+                    <param id="0" name="X">1</param>
+                    <param id="1" name="Y">2</param>
+                    <param id="2" name="Value">&quot;zebra&quot;</param>
+                </action>
+                <action id="3" name="Set at XY" sid="4276910938883813" type="Leaderboard">
+                    <param id="0" name="X">2</param>
+                    <param id="1" name="Y">0</param>
+                    <param id="2" name="Value">12</param>
+                </action>
+                <action id="3" name="Set at XY" sid="834107232220917" type="Leaderboard">
+                    <param id="0" name="X">2</param>
+                    <param id="1" name="Y">1</param>
+                    <param id="2" name="Value">&quot;Paul&apos;s&quot;</param>
+                </action>
+                <action id="3" name="Set at XY" sid="1611549528782866" type="Leaderboard">
+                    <param id="0" name="X">2</param>
+                    <param id="1" name="Y">2</param>
+                    <param id="2" name="Value">&quot;snake&quot;</param>
+                </action>
+                <action id="3" name="Set at XY" sid="3271144647085453" type="Leaderboard">
+                    <param id="0" name="X">3</param>
+                    <param id="1" name="Y">0</param>
+                    <param id="2" name="Value">23</param>
+                </action>
+                <action id="3" name="Set at XY" sid="8384937623703079" type="Leaderboard">
+                    <param id="0" name="X">3</param>
+                    <param id="1" name="Y">1</param>
+                    <param id="2" name="Value">&quot;Lisa&apos;s&quot;</param>
+                </action>
+                <action id="3" name="Set at XY" sid="9090422751248751" type="Leaderboard">
+                    <param id="0" name="X">3</param>
+                    <param id="1" name="Y">2</param>
+                    <param id="2" name="Value">&quot;elephant&quot;</param>
+                </action>
+                <action id="8" name="Sort" sid="2068358506566893" type="Leaderboard">
+                    <param id="0" name="Axis">0</param>
+                </action>
+                <action id="7" name="Reverse" sid="7959902032392734" type="Leaderboard">
+                    <param id="0" name="Axis">0</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="7623971729968528">
+                    <conditions>
+                        <condition id="1" name="Is user logged in" sid="3683650382103062" type="Facebook" />
+                    </conditions>
+                    <actions>
+                        <action id="3" name="Set at XY" sid="471308626640063" type="Leaderboard">
+                            <param id="0" name="X">0</param>
+                            <param id="1" name="Y">1</param>
+                            <param id="2" name="Value">Facebook.FirstName &amp; &quot;&apos;s&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <variable constant="0" name="CurrentAnimal" sid="5404716959995165" static="0" type="text"></variable>
+                <event-block sid="7448851424949128">
+                    <conditions>
+                        <condition id="3" name="For each element" sid="7571894090474928" type="Leaderboard">
+                            <param id="0" name="Axes">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="8116786062795529" type="System">
+                            <param id="0" name="Variable">CurrentAnimal</param>
+                            <param id="1" name="Value">Leaderboard.At(Leaderboard.CurX, 2)</param>
+                        </action>
+                        <action id="-3" name="Create object" sid="2487995907426651" type="System">
+                            <param id="0" name="Object to create">TitleText</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="X">170</param>
+                            <param id="3" name="Y">20 + LeaderBoard.CurX * 120</param>
+                        </action>
+                        <action id="0" name="Set text" sid="4514494473543046" type="TitleText">
+                            <param id="0" name="Text">Leaderboard.At(Leaderboard.CurX, 1) &amp; &quot; ChopBuddy&quot;</param>
+                        </action>
+                        <action id="-3" name="Create object" sid="4565536462049427" type="System">
+                            <param id="0" name="Object to create">Energy</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="X">180</param>
+                            <param id="3" name="Y">75 + Leaderboard.CurX * 120</param>
+                        </action>
+                        <action id="-3" name="Create object" sid="8488914852482443" type="System">
+                            <param id="0" name="Object to create">StatsBar</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="X">200</param>
+                            <param id="3" name="Y">65 + Leaderboard.CurX * 120</param>
+                        </action>
+                        <action id="-5" name="Set width" sid="1030252174831941" type="StatsBar">
+                            <param id="0" name="Width">200</param>
+                        </action>
+                        <action id="3" name="Set progress" sid="5675668403864467" type="StatsBar">
+                            <param id="0" name="Value">Leaderboard.At(Leaderboard.CurX, 0)</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="6666515289103119">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="4470719447450452" type="System">
+                                    <param id="0" name="Variable">CurrentAnimal</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;snake&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-3" name="Create object" sid="4672046129827109" type="System">
+                                    <param id="0" name="Object to create">Snake</param>
+                                    <param id="1" name="Layer">0</param>
+                                    <param id="2" name="X">80</param>
+                                    <param id="3" name="Y">50 + Leaderboard.CurX * 120</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="2212936105701995">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="7847353037743244" type="System">
+                                    <param id="0" name="Variable">CurrentAnimal</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;elephant&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-3" name="Create object" sid="8408147183384405" type="System">
+                                    <param id="0" name="Object to create">Elephant</param>
+                                    <param id="1" name="Layer">0</param>
+                                    <param id="2" name="X">80</param>
+                                    <param id="3" name="Y">50 + Leaderboard.CurX * 120</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="7609564668387152">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="8608711983626881" type="System">
+                                    <param id="0" name="Variable">CurrentAnimal</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;zebra&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-3" name="Create object" sid="7104431368004883" type="System">
+                                    <param id="0" name="Object to create">Zebra</param>
+                                    <param id="1" name="Layer">0</param>
+                                    <param id="2" name="X">80</param>
+                                    <param id="3" name="Y">50 + Leaderboard.CurX * 120</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="3142624280119359">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="6554645609520511" type="System">
+                                    <param id="0" name="Variable">CurrentAnimal</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;lion&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-3" name="Create object" sid="7949548088140489" type="System">
+                                    <param id="0" name="Object to create">Lion</param>
+                                    <param id="1" name="Layer">0</param>
+                                    <param id="2" name="X">80</param>
+                                    <param id="3" name="Y">50 + Leaderboard.CurX * 120</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="5263294213326533">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="4811635079360839" type="System">
+                                    <param id="0" name="Variable">CurrentAnimal</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;rhino&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-3" name="Create object" sid="8869677511068227" type="System">
+                                    <param id="0" name="Object to create">Rhino</param>
+                                    <param id="1" name="Layer">0</param>
+                                    <param id="2" name="X">80</param>
+                                    <param id="3" name="Y">50 + Leaderboard.CurX * 120</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="8432928792333078">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="5303989478404136" type="System">
+                                    <param id="0" name="Variable">CurrentAnimal</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">&quot;turtle&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-3" name="Create object" sid="6996506514686407" type="System">
+                                    <param id="0" name="Object to create">Turtle</param>
+                                    <param id="1" name="Layer">0</param>
+                                    <param id="2" name="X">80</param>
+                                    <param id="3" name="Y">50 + Leaderboard.CurX * 120</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="6695298384994257">
+            <conditions>
+                <condition id="-18" name="On created" sid="3180108963771576" type="Lion" />
+            </conditions>
+            <actions>
+                <action behavior="Sine" id="3" name="Set movement" sid="6410973920547763" type="Lion">
+                    <param id="0" name="Movement">0</param>
+                </action>
+                <action behavior="Sine" id="2" name="Set magnitude" sid="1433392398106471" type="Lion">
+                    <param id="0" name="Magnitude">10</param>
+                </action>
+                <action behavior="Sine" id="0" name="Set active" sid="8444331570791783" type="Lion">
+                    <param id="0" name="State">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2854517834329151">
+            <conditions>
+                <condition id="-18" name="On created" sid="6427765937393196" type="Rhino" />
+            </conditions>
+            <actions>
+                <action behavior="Sine" id="3" name="Set movement" sid="6524645863505551" type="Rhino">
+                    <param id="0" name="Movement">0</param>
+                </action>
+                <action behavior="Sine" id="2" name="Set magnitude" sid="2444157818513501" type="Rhino">
+                    <param id="0" name="Magnitude">10</param>
+                </action>
+                <action behavior="Sine" id="0" name="Set active" sid="5329986443876169" type="Rhino">
+                    <param id="0" name="State">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8825761318965218">
+            <conditions>
+                <condition id="-18" name="On created" sid="6962498265008719" type="Turtle" />
+            </conditions>
+            <actions>
+                <action behavior="Sine" id="3" name="Set movement" sid="5557510505524961" type="Turtle">
+                    <param id="0" name="Movement">0</param>
+                </action>
+                <action behavior="Sine" id="2" name="Set magnitude" sid="7283685575752332" type="Turtle">
+                    <param id="0" name="Magnitude">10</param>
+                </action>
+                <action behavior="Sine" id="0" name="Set active" sid="5151043482048535" type="Turtle">
+                    <param id="0" name="State">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="8528366302929835">
+            <conditions>
+                <condition id="-18" name="On created" sid="1890063528339516" type="Energy" />
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="850286256340279" type="Energy">
+                    <param id="0" name="Scale">0.5</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1301564995097034">
+            <conditions>
+                <condition id="0" name="On clicked" sid="1858182502408534" type="Button" />
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="7131246604647145" type="System">
+                    <param id="0" name="Layout">Main Screen</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
