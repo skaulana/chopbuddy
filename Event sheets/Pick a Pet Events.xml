@@ -19,7 +19,7 @@
                 </action>
                 <action id="2" name="Set at X" sid="9716986435276866" type="HealthTips">
                     <param id="0" name="X">1</param>
-                    <param id="1" name="Value">&quot;How are you doing today?&quot;</param>
+                    <param id="1" name="Value">&quot;εte sεn? How are you doing today?&quot;</param>
                 </action>
                 <action id="2" name="Set at X" sid="1668441900242776" type="HealthTips">
                     <param id="0" name="X">2</param>
@@ -95,7 +95,7 @@
                 </action>
                 <action id="2" name="Set at X" sid="762899695112855" type="HealthTips">
                     <param id="0" name="X">1</param>
-                    <param id="1" name="Value">&quot;Eti sen, &quot; &amp; Facebook.FirstName &amp; &quot;? It&apos;s good to see you!&quot;</param>
+                    <param id="1" name="Value">&quot;εte sεn, &quot; &amp; Facebook.FirstName &amp; &quot;? It&apos;s good to see you!&quot;</param>
                 </action>
                 <action id="2" name="Set at X" sid="4596356921587208" type="HealthTips">
                     <param id="0" name="X">3</param>
