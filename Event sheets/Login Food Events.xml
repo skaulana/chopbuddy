@@ -39,7 +39,7 @@
                             <param id="0" name="Object to create">Rhino</param>
                             <param id="1" name="Layer">0</param>
                             <param id="2" name="X">150</param>
-                            <param id="3" name="Y">500</param>
+                            <param id="3" name="Y">400</param>
                         </action>
                     </actions>
                 </event-block>
@@ -56,7 +56,7 @@
                             <param id="0" name="Object to create">Turtle</param>
                             <param id="1" name="Layer">0</param>
                             <param id="2" name="X">150</param>
-                            <param id="3" name="Y">500</param>
+                            <param id="3" name="Y">400</param>
                         </action>
                     </actions>
                 </event-block>
@@ -172,41 +172,6 @@
                     <param id="0" name="Angle">0</param>
                 </action>
             </actions>
-        </event-block>
-        <event-block sid="2169814641939454">
-            <conditions>
-                <condition id="0" name="On clicked" sid="7338878398676276" type="Button" />
-            </conditions>
-            <actions />
-            <sub-events>
-                <event-block sid="8532293998985807">
-                    <conditions>
-                        <condition id="-14" name="Pick by unique ID" sid="2156589173848485" type="Button">
-                            <param id="0" name="Unique ID">71</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-3" name="Create object" sid="9303015383505674" type="System">
-                            <param id="0" name="Object to create">Platequarters7</param>
-                            <param id="1" name="Layer">0</param>
-                            <param id="2" name="X">0</param>
-                            <param id="3" name="Y">0</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="6669552007919088">
-                    <conditions>
-                        <condition id="-14" name="Pick by unique ID" sid="7482255416410157" type="Button">
-                            <param id="0" name="Unique ID">73</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-2" name="Go to layout" sid="5758056701660521" type="System">
-                            <param id="0" name="Layout">Healthy Eating Screen</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
         </event-block>
     </events>
 </c2eventsheet>
