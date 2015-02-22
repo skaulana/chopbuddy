@@ -539,6 +539,21 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="freshgrassandskyhi" sid="106859698282202">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6123852788908286" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501144" original-source="C:\Users\Dexterous\Downloads\fresh-grass-and-sky-hi.png">
+                        <collision-poly>
+                            <point x="0.00166667" y="0.00228833" />
+                            <point x="0.998333" y="0.00228833" />
+                            <point x="0.998333" y="0.997712" />
+                            <point x="0.00166667" y="0.997712" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>

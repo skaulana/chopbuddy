@@ -29,22 +29,24 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="GreenHill" uid="4">
+                <instance type="freshgrassandskyhi" uid="62">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
-                        <hotspot>Top-left</hotspot>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
                     </properties>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>0</x>
-                        <y>0</y>
+                        <x>427</x>
+                        <y>194.196807861</y>
                         <z>0</z>
                         <width>850</width>
-                        <height>500</height>
+                        <height>609</height>
                         <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.501144171</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
