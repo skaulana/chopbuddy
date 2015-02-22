@@ -84,7 +84,7 @@
         </event-block>
         <event-block sid="6322158841371331">
             <conditions>
-                <condition id="2" name="On user logged in" sid="9568897652081976" type="Facebook" />
+                <condition id="4" name="On name available" sid="9568897652081976" type="Facebook" />
                 <condition id="-14" name="Pick by unique ID" sid="2890842445956969" type="Button">
                     <param id="0" name="Unique ID">59</param>
                 </condition>
@@ -92,6 +92,18 @@
             <actions>
                 <action id="0" name="Set text" sid="4571021527809497" type="Button">
                     <param id="0" name="Text">&quot;Hi &quot; &amp; Facebook.FirstName &amp; &quot;!&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="762899695112855" type="HealthTips">
+                    <param id="0" name="X">1</param>
+                    <param id="1" name="Value">&quot;Eti sen, &quot; &amp; Facebook.FirstName &amp; &quot;? It&apos;s good to see you!&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="4596356921587208" type="HealthTips">
+                    <param id="0" name="X">3</param>
+                    <param id="1" name="Value">Facebook.FirstName &amp; &quot;, let&apos;s make sure to have a balanced meal for lots of racing energy!&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="1978211547462936" type="HealthTips">
+                    <param id="0" name="X">4</param>
+                    <param id="1" name="Value">&quot;Thanks for coming to see me today, &quot; &amp; Facebook.FirstName &amp; &quot;!&quot;</param>
                 </action>
             </actions>
         </event-block>
