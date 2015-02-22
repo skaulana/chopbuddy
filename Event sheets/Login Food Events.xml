@@ -198,5 +198,17 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="7844127173726797">
+            <conditions>
+                <condition id="17" name="On tap object" sid="9658869887093321" type="Touch">
+                    <param id="0" name="Object">FoodChicken</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="8770939488439387" type="DescriptionText">
+                    <param id="0" name="Text">&quot;A chicken drumstick has: 30g protein, 7g fat, 430 calories. Smart choice for protein, chale!&quot;</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

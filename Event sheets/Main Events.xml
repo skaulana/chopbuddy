@@ -342,6 +342,7 @@
                         <action id="-26" name="Restart layout" sid="4334198237495899" type="System" />
                     </actions>
                 </event-block>
+                <comment>Temporary action for Treatz shop screenshot</comment>
                 <event-block sid="2320119929573428">
                     <conditions>
                         <condition id="-14" name="Pick by unique ID" sid="4585160276998917" type="Button">
@@ -373,6 +374,7 @@
                 </event-block>
             </sub-events>
         </event-block>
+        <comment>Temporary action for Treatz shop screenshot</comment>
         <event-block sid="8155147997807296">
             <conditions>
                 <condition id="17" name="On tap object" sid="8016460288665158" type="Touch">
